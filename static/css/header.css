@@ -1,0 +1,16 @@
+.navbar {
+  background-color: #212517;
+  color: #f2f2ef;
+}
+.nav__main {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
