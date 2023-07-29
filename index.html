@@ -42,17 +42,45 @@
         </div>
       </section>
       <section id="about_me">
-        <div class="about_me_img_container">
-          <img class="about_img" src="" alt="" />
+        <h2 class="section_title">About me</h2>
+        <div class="about_me_box">
+          <div class="about_me_img_container">
+            <img class="about_img" src="./static/img/img_portret.jpg" alt="" />
+          </div>
+          <ul class="about_me_list">
+            <li class="about_me_item">
+              <img class="img_icon" src="./static/img/icon_1.svg" alt="" />
+              <p>
+                Współpracując ze mną zapewniam terminowość, dokładność,
+                elastyczność oraz stały kontakt.
+              </p>
+            </li>
+            <li class="about_me_item">
+              <img class="img_icon" src="./static/img/icon_2.svg" alt="" />
+              <p>
+                Zrealizowałem ponad 200 komercyjnych projektów. Wsród nich są
+                realizacje na rynek polski oraz zagraniczny.
+              </p>
+            </li>
+            <li class="about_me_item">
+              <img class="img_icon" src="./static/img/icon_3.svg" alt="" />
+              <p>
+                Współpracuje z osobami prywatnymi oraz agencjami interaktywnymi,
+                realizując gotowe strony internetowe
+              </p>
+            </li>
+            <li class="about_me_item">
+              <img class="img_icon" src="./static/img/icon_4.svg" alt="" />
+              <p>
+                Projekty koduję responsywnie z dbałością o kazdy pixel, z
+                wszystkich aplikacji graficznych: PS, XD, Figma, Sketch
+              </p>
+            </li>
+          </ul>
         </div>
-        <ul class="about_me_list">
-          <li class="about_me_item">Lorem1</li>
-          <li class="about_me_item">Lorem2</li>
-          <li class="about_me_item">Lorem3</li>
-          <li class="about_me_item">Lorem4</li>
-        </ul>
       </section>
       <section id="projects">
+        <h2 class="section_title">Projects</h2>
         <ul class="projects_list">
           <li class="projects_item">Lorem1</li>
           <li class="projects_item">Lorem2</li>
@@ -61,6 +89,7 @@
         </ul>
       </section>
       <section id="skills">
+        <h2 class="section_title">Skills</h2>
         <ul class="skills_list">
           <li class="skills_item">Lorem1</li>
           <li class="skills_item">Lorem2</li>
@@ -69,9 +98,37 @@
         </ul>
       </section>
       <section id="contacts">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-        numquam consequuntur incidunt cumque culpa maxime inventore debitis
-        aliquam assumenda ab.
+        <h2 class="section_title">Contacts</h2>
+        <div class="contacts_info">
+          <a href="tel:123-456-7890">123-456-7890</a>
+          <a href="">Github</a>
+          <a href="">LinkedIn</a>
+        </div>
+        <div class="contacts_form">
+          <form method="post" action="/">
+            <input
+              class="input_data"
+              type="text"
+              placeholder="Imię i nazwisko"
+              required
+            />
+            <input
+              class="input_data"
+              type="email"
+              name=""
+              id=""
+              placeholder="Email"
+              required
+            />
+            <input
+              class="input_message"
+              type="text"
+              placeholder="Treść wiadomości"
+              required
+            />
+            <input class="input_send" type="submit" value="Wyślij" />
+          </form>
+        </div>
       </section>
     </div>
     <!-- footer -->

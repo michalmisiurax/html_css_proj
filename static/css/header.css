@@ -1,8 +1,8 @@
 .navbar {
-  background-color: #212517;
+  background-color: #212517 !important;
   color: #f2f2ef;
 }
-.nav__main {
+.nav_main {
   display: flex;
   justify-content: space-around;
   list-style: none;

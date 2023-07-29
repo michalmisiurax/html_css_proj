@@ -1,6 +1,6 @@
 @import url("./static/css/header.css");
 @import url("./static/css/home.css");
-@import url("./static/css/main.css");
+@import url("./static/css/about_me.css");
 @import url("./static/css/footer.css");
 
 *,
@@ -11,6 +11,7 @@
   box-sizing: border-box;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
+  color: #f2f2ef;
 }
 
 a {
@@ -26,4 +27,8 @@ a {
 
 body {
   font-size: 10px;
+  background-color: rgb(77, 77, 77);
+}
+h2 {
+  font-size: 25px;
 }
