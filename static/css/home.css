@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
-  height: 300px;
+  min-height: 300px;
   display: flex;
   align-items: center;
 }
@@ -13,6 +13,7 @@
   width: 60%;
   backdrop-filter: blur(500px);
   margin-left: 50px;
+  margin-top: 30px;
 }
 .home_title {
   font-size: 30px;

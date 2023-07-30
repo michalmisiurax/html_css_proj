@@ -1,6 +1,9 @@
 @import url("./static/css/header.css");
 @import url("./static/css/home.css");
 @import url("./static/css/about_me.css");
+@import url("./static/css/projects.css");
+@import url("./static/css/skills.css");
+@import url("./static/css/contacts.css");
 @import url("./static/css/footer.css");
 
 *,
@@ -30,5 +33,23 @@ body {
   background-color: rgb(77, 77, 77);
 }
 h2 {
-  font-size: 25px;
+  font-size: 40px;
+  margin: 30px;
+}
+li {
+  list-style: none;
+}
+input,
+textarea {
+  color: black;
+}
+
+.section_title {
+  text-align: center;
+}
+img {
+  height: auto;
+}
+html {
+  scroll-behavior: smooth;
 }
